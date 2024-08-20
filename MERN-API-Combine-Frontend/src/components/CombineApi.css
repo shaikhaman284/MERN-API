@@ -1,0 +1,178 @@
+/* src/components/Transactions.css */
+
+.transactions-container {
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.filter-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-input, .month-select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.transactions-table th, .transactions-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.transactions-table th {
+    background-color: #ffcc66;
+    color: black;
+    text-align: left;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffcc66;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination-btn:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+/* Barchart.css */
+
+.chart-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.dropdown-container select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.dropdown-container select:focus {
+    outline: none;
+    border-color: #75b8c8;
+}
+
+.chart-container .chart-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.chart-container .error-message {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+/* src/PieChart.css */
+.chart-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dropdown-container select {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Statistics Css */
+.statistics {
+    background-color: #e8f4f8; /* Light blue background */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.statistics h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.statistics-box {
+    background-color: #ffeb3b; /* Yellow background */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.statistics-box div {
+    margin: 10px 0;
+}
+
+select {
+    margin-top: 20px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
