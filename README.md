@@ -1,7 +1,7 @@
 # MERN-API
 
 # Transaction-Table
-![Screenshot 2024-08-15 182205](https://github.com/user-attachments/assets/c8bd46ed-c100-48ae-a302-6060012e1100)
+![Screenshot 2024-08-15 182238](https://github.com/user-attachments/assets/978b6cec-013f-411d-ab28-70d761e41171)
 
 
 # Transaction-Statistics
