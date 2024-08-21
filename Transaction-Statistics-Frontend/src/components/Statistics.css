@@ -1,0 +1,38 @@
+.statistics {
+    background-color: #e8f4f8; /* Light blue background */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.statistics h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.statistics-box {
+    background-color: #ffeb3b; /* Yellow background */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.statistics-box div {
+    margin: 10px 0;
+}
+
+select {
+    margin-top: 20px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
