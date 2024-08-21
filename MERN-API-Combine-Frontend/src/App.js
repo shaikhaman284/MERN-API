@@ -3,7 +3,7 @@ import React from 'react';
 
 import './App.css';
 
-import { BarChart, PieChart, Statistics, Transactions } from './components/CombineApi';
+import { BarChart, PieChart, Statistics } from './components/CombineApi';
 
 function App() {
   return (
@@ -12,9 +12,7 @@ function App() {
 
       </header>
       <main>
-      <div class="barchart">
-            <Transactions />
-          </div>
+
         <div class="container">
         
           <div>
